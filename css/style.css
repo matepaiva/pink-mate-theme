@@ -1,0 +1,343 @@
+/*-------------------------SIMPLE CSS RESET AND RESPONSIVE SETTINGS*/
+* {
+margin:0;
+padding:0;
+list-style:none;
+vertical-align:baseline;
+}
+
+html {
+	font-size: 18px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+/*-------------------------END OF RESET */
+
+
+/*-------------------------GENERAL CONFIG*/
+body {
+	background-color: white;
+}
+
+h1 {
+	font-size: 2.3em;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-bottom: 5px;
+}
+h2 {
+	font-size: 1.8em;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 5px;
+}
+h3 {
+	font-size: 1.6em;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 5px;
+}
+h4 {
+	font-size: 1.3em;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 5px;
+}
+h5 {
+	font-size: 1.1em;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 5px;
+}
+h6 {
+	font-size: 0.7em;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+p  {
+	font-size: 1.0em;
+	font-family: 'PT Sans', sans-serif;
+	text-align: justify;
+	margin-bottom: 15px;
+}
+/*-------------------------END OF GENERAL CONFIG*/
+
+
+/*-------------------------MAIN CONTAINER*/
+.main-container {
+	background-color: white;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	max-width: 650px;
+	padding-top: 60px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-left: 1px dotted #e93578;
+	border-right: 1px dotted #e93578;
+}
+
+.article-title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.3em;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	background-color: white;
+}
+/*-------------------------END OF MAIN CONTAINER*/
+
+
+/*-------------------------HEADER*/
+
+#aside-btn {
+	display: none;
+}
+
+#header-blog {
+	top: 0;
+	left: 0;
+	height: 52px;
+	position: fixed;
+	display: block;
+    z-index: 4;
+	width: 100%;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: black;
+	border-bottom: 1px dotted #e93578;
+	background-color: white;
+}
+
+.blog-title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: #e93578;
+	color: white;
+	border: 1px solid #e93578;
+	padding: 5px;
+	border-radius: 1px;
+}
+
+.blog-navbar {
+	padding-right: 10px;
+	padding-top: 10px;
+	float: right;
+}
+
+.blog-internal {
+	font-size: 0.7em;
+}
+
+.blog-external {
+	font-size: 1.5em;
+	border-left: 1px dotted #e93578;
+	padding-left: 15px;
+}
+
+#blog-aside ul, #blog-aside div {
+	display: inline-block;
+}
+
+#blog-aside li {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.header-divisor {
+	display: inline-block;
+	width: 1px;
+	height: 42px;
+	background-color: white;
+	border-left: 1px dotted #e93578;
+	margin-top: -10px;
+}
+
+.blog-title span{
+	display: inline;
+	font-size: 1em;
+}
+
+.blog-title h1{
+	font-size: 1em;
+	display: inline;
+}
+
+.link-title {
+	text-transform: uppercase;
+	display: block;
+}
+
+.active-link {
+    color: #e93578;
+}
+
+/*-------------------------END OF HEADER*/
+
+
+
+/*-------------------------NAV-MENU CONTENTS*/
+
+#nav-contents {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    background-color: white;
+    color: black;
+    width: 100%;
+    max-width: 650px;
+    border-left: 1px dotted #e93578;
+    border-right: 1px dotted #e93578;
+    border-bottom: 1px dotted #e93578;
+    padding-top: 55px;
+    transition: transform 150ms linear;
+}
+
+.show-nav-content {
+    transform: translate(-50%, 0%) !important;
+}    
+
+#nav-contents > div {
+    display: block;
+    width: 100%;
+}
+
+#nav-contents header {
+    margin: 5px;
+    margin-top: -32px;
+    text-align: center;
+    background-color: #e93578;
+    padding: 7px;
+    border-radius: 1px;
+    color: white;
+}
+
+.icon-close{
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: font-size 150ms linear;
+    color: white;
+}
+.icon-close:hover{
+    font-size: 1.2em;
+}
+
+#nav-contents h3{
+    padding-top: 5px;
+    display: inline-block;
+    font-size: 1em;
+    text-transform: lowercase;
+}
+
+.nav-item {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    border: 1px solid #EBEBEB;
+    padding: 2px 4px;
+    border-radius: 2px;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    border: 1px solid darkgray;
+}
+
+#nav-contents content {
+    display: block;
+    margin: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.categorias, .tags, .archives, .about-me{
+    display: none !important;
+}
+
+.show {
+    display: inline-block !important;
+}
+
+/*-------------------------END OF NAV-MENU CONTENTS*/
+
+
+/*-------------------------HEADROOM JS*/
+.headroom {
+	transition: transform 150ms linear;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+#blackout {
+    display: none;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.1);
+}
+/*-------------------------END OF HEADROOM JS*/
+
+
+/*-------------------------MOBILE QUERIES */
+@media screen and (max-width:620px) {
+	#header-blog {
+		max-width: 100%;
+	}
+
+	.article-title {
+		font-size: 2em;
+	}
+    
+    #aside-btn {
+        display: inline-block;
+        float: left;
+        padding: 8px;
+        font-size: 1.2em;
+    }
+    
+    #blog-aside {
+        display: block;
+        background-color: white;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: -50;
+        transform: translateY(-100%);
+        border-bottom: 1px dotted #e93578;
+        width: 100%;
+        transition: transform 150ms linear;
+    }
+    
+    .appear {
+        transform: translateY(53px) !important;
+    }
+    
+    .main-container {
+        border: 0px;
+    }
+    
+    .blog-external, .blog-internal {
+        padding-top: 5px;
+        display: block !important;
+    }
+    
+    .show-nav-content {
+        transform: translate(-50%, 76px) !important;
+    }  
+}

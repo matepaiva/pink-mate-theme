@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/icon-font.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="blackout" onclick="toggleNavContent(this)"></div>
+    <div id="nav-contents">
+        <span class="icon-close" onclick="toggleNavContent(this)"></span>
+       <div class="categorias">
+           <header>
+               <h3>Categorias</h3>
+           </header>
+           <content>
+               <a class="nav-item">HTML</a>
+               <a href="#" class="nav-item">CSS</a>
+               <a href="#" class="nav-item">Javascript</a>
+               <a href="#" class="nav-item">Python</a>
+               <a href="#" class="nav-item">java</a>
+           </content>
+       </div>
+        <div class="tags">
+            <header>
+                <h3>Tags</h3>
+            </header>
+            <content>
+                <a href="#" class="nav-item">Batatinha</a>
+                <a href="#" class="nav-item">Pepininho</a>
+                <a href="#" class="nav-item">Abobrinha</a>
+                <a href="#" class="nav-item">Moranguinho</a>
+                <a href="#" class="nav-item">Coelho</a>
+            </content>
+        </div>
+    </div>
+    
+    
+    <header id="header-blog">
+        <div class="blog-title">
+            <h1>tecepe.eng.br</h1>
+        </div>
+        <nav class="blog-navbar">
+            <a id="aside-btn" class="icon-menu" onclick="toogleMenu()"></a>
+            <aside id="blog-aside">
+                <ul class="blog-internal">
+                    <li data-name="tags" onclick="toggleNavContent(this)">
+                        <span class="icon-tags"></span>
+                        <span class="link-title">tags</span>
+                    </li>
+                    <li data-name="categorias" onclick="toggleNavContent(this)">
+                        <span class="icon-folder"></span>
+                        <span class="link-title" active>categorias</span>
+                    </li>
+                    <li>
+                        <span class="icon-archive"></span>
+                        <span class="link-title">arquivos</span>
+                    </li>
+                    <li>
+                        <span class="icon-user"></span>
+                        <span class="link-title">quem sou</span>
+                    </li>
+                </ul>
+                <ul class="blog-external">
+                    <li>
+                        <a class="icon-contact"></a>
+                    </li>
+                    <li>
+                        <a class="icon-fb"></a>
+                    </li>
+                    <li>
+                        <a class="icon-twitter"></a>
+                    </li>
+                    <li>
+                        <a class="icon-youtube"></a>
+                    </li>
+                </ul>
+            </aside>
+        </nav>
+    </header>
+    <!--/header -->
+
+   
+    <div class="main-container">
+        <article>
+            <h1 class="article-title">Sed lex, dura lex</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h6>Vamos contar</h6>
+        </article>
+        <article>
+            <h1 class="article-title">Dolore magna aliqua</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h6>Vamos contar</h6>
+        </article>
+        <article>
+            <h1 class="article-title">Ut enim ad minim veniam</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h6>Vamos contar</h6>
+        </article>
+    </div>
+
+    <footer id="footer-blog"></footer>
+
+    <script src="js/headroom.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
